@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gerenciamento.Servicos.API", "Gerenciamento.Servicos.API\Gerenciamento.Servicos.API.csproj", "{26A384AC-6CA1-4909-A18E-BE49E5B01C7D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aplicação", "Aplicação", "{220816E3-2B64-45C0-AA3D-89BC2A888DC0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apresentação", "Apresentação", "{0A474EE9-EF59-457C-B271-A37E908FB54C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{70BE661F-7868-4985-ACAF-F2F9D6025AF5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Serviços", "Serviços", "{F0702AEB-4B4C-4E2F-BBCC-58937C1BAFAC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domínio", "Domínio", "{703DAE58-DDDB-4EB3-B119-DEB93BC31D79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerenciamentoDeCarros.Aplicacao", "GerenciamentoDeCarros.Aplicacao\GerenciamentoDeCarros.Aplicacao.csproj", "{FA73AFD7-8B7D-4D80-98E5-31BAFF877D3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerenciamentoDeCarros.Dominio", "GerenciamentoDeCarros.Dominio\GerenciamentoDeCarros.Dominio.csproj", "{6AA359A0-10FA-42AF-80CE-776881F0CC01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerenciamentoDeCarros.Dominio.Core", "GerenciamentoDeCarros.Dominio.Core\GerenciamentoDeCarros.Dominio.Core.csproj", "{76997E0D-2865-4ABB-917F-968A830F6323}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerenciamentoDeCarros.Serviços", "GerenciamentoDeCarros.Serviços\GerenciamentoDeCarros.Serviços.csproj", "{F8CADBC3-7932-46E7-AE14-E157E6F6FA71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerenciamentoDeCarros.Infraestrutura", "GerenciamentoDeCarros.Infraestrutura\GerenciamentoDeCarros.Infraestrutura.csproj", "{3BEBEA30-EEB6-4D0D-B98B-20CEF6717C40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26A384AC-6CA1-4909-A18E-BE49E5B01C7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26A384AC-6CA1-4909-A18E-BE49E5B01C7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26A384AC-6CA1-4909-A18E-BE49E5B01C7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26A384AC-6CA1-4909-A18E-BE49E5B01C7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA73AFD7-8B7D-4D80-98E5-31BAFF877D3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA73AFD7-8B7D-4D80-98E5-31BAFF877D3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA73AFD7-8B7D-4D80-98E5-31BAFF877D3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA73AFD7-8B7D-4D80-98E5-31BAFF877D3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AA359A0-10FA-42AF-80CE-776881F0CC01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AA359A0-10FA-42AF-80CE-776881F0CC01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AA359A0-10FA-42AF-80CE-776881F0CC01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AA359A0-10FA-42AF-80CE-776881F0CC01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76997E0D-2865-4ABB-917F-968A830F6323}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76997E0D-2865-4ABB-917F-968A830F6323}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76997E0D-2865-4ABB-917F-968A830F6323}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76997E0D-2865-4ABB-917F-968A830F6323}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8CADBC3-7932-46E7-AE14-E157E6F6FA71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8CADBC3-7932-46E7-AE14-E157E6F6FA71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8CADBC3-7932-46E7-AE14-E157E6F6FA71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8CADBC3-7932-46E7-AE14-E157E6F6FA71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BEBEA30-EEB6-4D0D-B98B-20CEF6717C40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BEBEA30-EEB6-4D0D-B98B-20CEF6717C40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BEBEA30-EEB6-4D0D-B98B-20CEF6717C40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BEBEA30-EEB6-4D0D-B98B-20CEF6717C40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{26A384AC-6CA1-4909-A18E-BE49E5B01C7D} = {F0702AEB-4B4C-4E2F-BBCC-58937C1BAFAC}
+		{FA73AFD7-8B7D-4D80-98E5-31BAFF877D3D} = {220816E3-2B64-45C0-AA3D-89BC2A888DC0}
+		{6AA359A0-10FA-42AF-80CE-776881F0CC01} = {703DAE58-DDDB-4EB3-B119-DEB93BC31D79}
+		{76997E0D-2865-4ABB-917F-968A830F6323} = {703DAE58-DDDB-4EB3-B119-DEB93BC31D79}
+		{F8CADBC3-7932-46E7-AE14-E157E6F6FA71} = {703DAE58-DDDB-4EB3-B119-DEB93BC31D79}
+		{3BEBEA30-EEB6-4D0D-B98B-20CEF6717C40} = {70BE661F-7868-4985-ACAF-F2F9D6025AF5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AAFB2DDC-A1E8-4F43-9C06-A002DB3C37B1}
+	EndGlobalSection
+EndGlobal
