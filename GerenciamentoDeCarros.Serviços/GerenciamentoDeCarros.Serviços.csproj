@@ -4,4 +4,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\GerenciamentoDeCarros.Dominio.Core\GerenciamentoDeCarros.Dominio.Core.csproj" />
+  </ItemGroup>
+
 </Project>

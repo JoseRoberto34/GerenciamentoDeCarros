@@ -5,8 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Interfaces\Serviços\" />
-    <Folder Include="Interfaces\Repositorios\" />
+    <ProjectReference Include="..\GerenciamentoDeCarros.Dominio\GerenciamentoDeCarros.Dominio.csproj" />
   </ItemGroup>
 
 </Project>

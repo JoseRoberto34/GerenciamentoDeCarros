@@ -5,8 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="DTO\" />
-    <Folder Include="Interfaces\" />
+    <ProjectReference Include="..\GerenciamentoDeCarros.Dominio.Core\GerenciamentoDeCarros.Dominio.Core.csproj" />
+    <ProjectReference Include="..\GerenciamentoDeCarros.Dominio\GerenciamentoDeCarros.Dominio.csproj" />
   </ItemGroup>
 
 </Project>
